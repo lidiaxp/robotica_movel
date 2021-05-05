@@ -24,7 +24,7 @@ This package works together with [MRS System](https://github.com/ctu-mrs/mrs_uav
   
 ## Installation 
 
-Follow the instructions [here](https://github.com/ctu-mrs/mrs_uav_system) (on Installation tab)
+Follow the instructions [here](https://github.com/ctu-mrs/mrs_uav_system) (on Installation tab) to install MRS System
 
 ```bash 
   cd ~/workspace/src
