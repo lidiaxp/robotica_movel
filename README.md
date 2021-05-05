@@ -3,7 +3,7 @@
 
 ![Logo](https://www.laris.ufscar.br/@@site-logo/logoLARIS5English.svg)
 
-This package works together with [MRS System](https://github.com/ctu-mrs/mrs_uav_system). It is a easy to simulate UAVs and Multi UAVs considering your real kinematics. 
+This package works together with [MRS System](https://github.com/ctu-mrs/mrs_uav_system). It is a easy to simulate UAVs and Multi UAVs considering your real kinematics. Some extra files to this package are in [Extra Files Package](https://github.com/lidiaxp/extraFilesRobotics).
 
 
 ## Build Status
@@ -20,6 +20,7 @@ This package works together with [MRS System](https://github.com/ctu-mrs/mrs_uav
 - Rangefinder
 - Bluefox
 - Real-sense D-435
+- Hokuyo
 
   
 ## Installation 
@@ -59,9 +60,13 @@ To run Multi UAVs run
   bash ~/workspace/src/robotica_movel/src/start/multiStart.sh
 ```
   
-## Optimizations
+## Extras
+### Add Hokuyo
+To add hokuyo the instructions are in [Extra Files Package](https://github.com/lidiaxp/extraFilesRobotics) on "Add Hokuyo" tab.
 
-The next plans to this package is add the tutorial to add the sensor hokuyo.
+### Solve "reference validation failed" error
+when you run the project for the first time, an error similar to  "reference validation failed". If this occour the way to solve is in [Extra Files Package](https://github.com/lidiaxp/extraFilesRobotics) on "Solve 'reference validation failed'" tab.
+  
   
 ## Related
 
