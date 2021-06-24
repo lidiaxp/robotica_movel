@@ -10,7 +10,7 @@ windows:
   - gazebo:
       layout: tiled
       panes:
-        - waitForRos; roslaunch petrobras_challenge simulation_arena.launch world_name:=fase1 gui:=true
+        - waitForRos; roslaunch robotica_movel simulation_arena.launch world_name:=fase1 gui:=true
   - status:
       layout: tiled
       panes:
